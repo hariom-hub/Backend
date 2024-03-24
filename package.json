@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Import and Export data from one file to another file.",
+  "main": "math.js",
+  "dependencies": {
+    "figlet": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "@hariom"
+  ],
+  "author": "Hariom Singh Thakur",
+  "license": "ISC",
+  "type": "module"
+}

@@ -41,14 +41,18 @@
 
 // const info = require("./stdInfo");
 // console.log(info);
-const figlet = require("figlet");
+// const figlet = require("figlet");
 
-console.log(
-    figlet.textSync("Hii Hariom", {
-        font: "Ghost",
-        horizontalLayout: "default",
-        verticalLayout: "default",
-        width: 80,
-        whitespaceBreak: true,
-    })
-);
+// console.log(
+//     figlet.textSync("Hii Hariom", {
+//         font: "Ghost",
+//         horizontalLayout: "default",
+//         verticalLayout: "default",
+//         width: 80,
+//         whitespaceBreak: true,
+//     })
+// );
+
+import {sum,pi} from "./math.js";
+console.log(pi);
+console.log(sum(10,20));
